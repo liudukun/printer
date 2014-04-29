@@ -7,9 +7,12 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "DKMainViewController.h"
 
 @interface DKAppDelegate : UIResponder <UIApplicationDelegate>
 
 @property (strong, nonatomic) UIWindow *window;
+
+@property (nonatomic,strong) DKMainViewController * controller;
 
 @end

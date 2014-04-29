@@ -14,22 +14,13 @@
 		181751C0190F4BE000E043B2 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 181751BF190F4BE000E043B2 /* main.m */; };
 		181751C4190F4BE000E043B2 /* DKAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 181751C3190F4BE000E043B2 /* DKAppDelegate.m */; };
 		181751C6190F4BE000E043B2 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 181751C5190F4BE000E043B2 /* Images.xcassets */; };
-		181751CD190F4BE000E043B2 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 181751CC190F4BE000E043B2 /* XCTest.framework */; };
-		181751CE190F4BE000E043B2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 181751B3190F4BE000E043B2 /* Foundation.framework */; };
-		181751CF190F4BE000E043B2 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 181751B7190F4BE000E043B2 /* UIKit.framework */; };
-		181751D7190F4BE000E043B2 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 181751D5190F4BE000E043B2 /* InfoPlist.strings */; };
-		181751D9190F4BE000E043B2 /* printerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 181751D8190F4BE000E043B2 /* printerTests.m */; };
+		181751E5190F4C3300E043B2 /* DKMainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 181751E3190F4C3300E043B2 /* DKMainViewController.m */; };
+		181751E6190F4C3300E043B2 /* DKMainViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 181751E4190F4C3300E043B2 /* DKMainViewController.xib */; };
+		181F1B44190F57FF005006D8 /* DKPrintView.m in Sources */ = {isa = PBXBuildFile; fileRef = 181F1B43190F57FF005006D8 /* DKPrintView.m */; };
+		181F1B47190F594E005006D8 /* DKToolsView.m in Sources */ = {isa = PBXBuildFile; fileRef = 181F1B46190F594E005006D8 /* DKToolsView.m */; };
+		181F1B4A190F5959005006D8 /* DKStatusView.m in Sources */ = {isa = PBXBuildFile; fileRef = 181F1B49190F5959005006D8 /* DKStatusView.m */; };
+		181F1B4D190F596A005006D8 /* DKFunctionsView.m in Sources */ = {isa = PBXBuildFile; fileRef = 181F1B4C190F596A005006D8 /* DKFunctionsView.m */; };
 /* End PBXBuildFile section */
-
-/* Begin PBXContainerItemProxy section */
-		181751D0190F4BE000E043B2 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 181751A8190F4BE000E043B2 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 181751AF190F4BE000E043B2;
-			remoteInfo = printer;
-		};
-/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		181751B0190F4BE000E043B2 /* printer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = printer.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -43,11 +34,18 @@
 		181751C2190F4BE000E043B2 /* DKAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DKAppDelegate.h; sourceTree = "<group>"; };
 		181751C3190F4BE000E043B2 /* DKAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DKAppDelegate.m; sourceTree = "<group>"; };
 		181751C5190F4BE000E043B2 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		181751CB190F4BE000E043B2 /* printerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = printerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		181751CC190F4BE000E043B2 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
-		181751D4190F4BE000E043B2 /* printerTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "printerTests-Info.plist"; sourceTree = "<group>"; };
-		181751D6190F4BE000E043B2 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		181751D8190F4BE000E043B2 /* printerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = printerTests.m; sourceTree = "<group>"; };
+		181751E2190F4C3300E043B2 /* DKMainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DKMainViewController.h; sourceTree = "<group>"; };
+		181751E3190F4C3300E043B2 /* DKMainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DKMainViewController.m; sourceTree = "<group>"; };
+		181751E4190F4C3300E043B2 /* DKMainViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DKMainViewController.xib; sourceTree = "<group>"; };
+		181F1B42190F57FF005006D8 /* DKPrintView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DKPrintView.h; sourceTree = "<group>"; };
+		181F1B43190F57FF005006D8 /* DKPrintView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DKPrintView.m; sourceTree = "<group>"; };
+		181F1B45190F594E005006D8 /* DKToolsView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DKToolsView.h; sourceTree = "<group>"; };
+		181F1B46190F594E005006D8 /* DKToolsView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DKToolsView.m; sourceTree = "<group>"; };
+		181F1B48190F5959005006D8 /* DKStatusView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DKStatusView.h; sourceTree = "<group>"; };
+		181F1B49190F5959005006D8 /* DKStatusView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DKStatusView.m; sourceTree = "<group>"; };
+		181F1B4B190F596A005006D8 /* DKFunctionsView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DKFunctionsView.h; sourceTree = "<group>"; };
+		181F1B4C190F596A005006D8 /* DKFunctionsView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DKFunctionsView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,24 +59,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		181751C8190F4BE000E043B2 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				181751CD190F4BE000E043B2 /* XCTest.framework in Frameworks */,
-				181751CF190F4BE000E043B2 /* UIKit.framework in Frameworks */,
-				181751CE190F4BE000E043B2 /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
 		181751A7190F4BE000E043B2 = {
 			isa = PBXGroup;
 			children = (
+				181F1B41190F57BE005006D8 /* views */,
 				181751B9190F4BE000E043B2 /* printer */,
-				181751D2190F4BE000E043B2 /* printerTests */,
 				181751B2190F4BE000E043B2 /* Frameworks */,
 				181751B1190F4BE000E043B2 /* Products */,
 			);
@@ -88,7 +76,6 @@
 			isa = PBXGroup;
 			children = (
 				181751B0190F4BE000E043B2 /* printer.app */,
-				181751CB190F4BE000E043B2 /* printerTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -109,6 +96,9 @@
 			children = (
 				181751C2190F4BE000E043B2 /* DKAppDelegate.h */,
 				181751C3190F4BE000E043B2 /* DKAppDelegate.m */,
+				181751E2190F4C3300E043B2 /* DKMainViewController.h */,
+				181751E3190F4C3300E043B2 /* DKMainViewController.m */,
+				181751E4190F4C3300E043B2 /* DKMainViewController.xib */,
 				181751C5190F4BE000E043B2 /* Images.xcassets */,
 				181751BA190F4BE000E043B2 /* Supporting Files */,
 			);
@@ -126,22 +116,19 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		181751D2190F4BE000E043B2 /* printerTests */ = {
+		181F1B41190F57BE005006D8 /* views */ = {
 			isa = PBXGroup;
 			children = (
-				181751D8190F4BE000E043B2 /* printerTests.m */,
-				181751D3190F4BE000E043B2 /* Supporting Files */,
+				181F1B42190F57FF005006D8 /* DKPrintView.h */,
+				181F1B43190F57FF005006D8 /* DKPrintView.m */,
+				181F1B45190F594E005006D8 /* DKToolsView.h */,
+				181F1B46190F594E005006D8 /* DKToolsView.m */,
+				181F1B48190F5959005006D8 /* DKStatusView.h */,
+				181F1B49190F5959005006D8 /* DKStatusView.m */,
+				181F1B4B190F596A005006D8 /* DKFunctionsView.h */,
+				181F1B4C190F596A005006D8 /* DKFunctionsView.m */,
 			);
-			path = printerTests;
-			sourceTree = "<group>";
-		};
-		181751D3190F4BE000E043B2 /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-				181751D4190F4BE000E043B2 /* printerTests-Info.plist */,
-				181751D5190F4BE000E043B2 /* InfoPlist.strings */,
-			);
-			name = "Supporting Files";
+			name = views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -164,24 +151,6 @@
 			productReference = 181751B0190F4BE000E043B2 /* printer.app */;
 			productType = "com.apple.product-type.application";
 		};
-		181751CA190F4BE000E043B2 /* printerTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 181751DF190F4BE000E043B2 /* Build configuration list for PBXNativeTarget "printerTests" */;
-			buildPhases = (
-				181751C7190F4BE000E043B2 /* Sources */,
-				181751C8190F4BE000E043B2 /* Frameworks */,
-				181751C9190F4BE000E043B2 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				181751D1190F4BE000E043B2 /* PBXTargetDependency */,
-			);
-			name = printerTests;
-			productName = printerTests;
-			productReference = 181751CB190F4BE000E043B2 /* printerTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -191,11 +160,6 @@
 				CLASSPREFIX = DK;
 				LastUpgradeCheck = 0510;
 				ORGANIZATIONNAME = ldk;
-				TargetAttributes = {
-					181751CA190F4BE000E043B2 = {
-						TestTargetID = 181751AF190F4BE000E043B2;
-					};
-				};
 			};
 			buildConfigurationList = 181751AB190F4BE000E043B2 /* Build configuration list for PBXProject "printer" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -210,7 +174,6 @@
 			projectRoot = "";
 			targets = (
 				181751AF190F4BE000E043B2 /* printer */,
-				181751CA190F4BE000E043B2 /* printerTests */,
 			);
 		};
 /* End PBXProject section */
@@ -221,15 +184,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				181751BE190F4BE000E043B2 /* InfoPlist.strings in Resources */,
+				181751E6190F4C3300E043B2 /* DKMainViewController.xib in Resources */,
 				181751C6190F4BE000E043B2 /* Images.xcassets in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		181751C9190F4BE000E043B2 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				181751D7190F4BE000E043B2 /* InfoPlist.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -240,42 +196,23 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				181751E5190F4C3300E043B2 /* DKMainViewController.m in Sources */,
 				181751C0190F4BE000E043B2 /* main.m in Sources */,
+				181F1B47190F594E005006D8 /* DKToolsView.m in Sources */,
+				181F1B4D190F596A005006D8 /* DKFunctionsView.m in Sources */,
+				181F1B4A190F5959005006D8 /* DKStatusView.m in Sources */,
 				181751C4190F4BE000E043B2 /* DKAppDelegate.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		181751C7190F4BE000E043B2 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				181751D9190F4BE000E043B2 /* printerTests.m in Sources */,
+				181F1B44190F57FF005006D8 /* DKPrintView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		181751D1190F4BE000E043B2 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 181751AF190F4BE000E043B2 /* printer */;
-			targetProxy = 181751D0190F4BE000E043B2 /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		181751BC190F4BE000E043B2 /* InfoPlist.strings */ = {
 			isa = PBXVariantGroup;
 			children = (
 				181751BD190F4BE000E043B2 /* en */,
-			);
-			name = InfoPlist.strings;
-			sourceTree = "<group>";
-		};
-		181751D5190F4BE000E043B2 /* InfoPlist.strings */ = {
-			isa = PBXVariantGroup;
-			children = (
-				181751D6190F4BE000E043B2 /* en */,
 			);
 			name = InfoPlist.strings;
 			sourceTree = "<group>";
@@ -381,46 +318,6 @@
 			};
 			name = Release;
 		};
-		181751E0190F4BE000E043B2 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/printer.app/printer";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-					"$(DEVELOPER_FRAMEWORKS_DIR)",
-				);
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "printer/printer-Prefix.pch";
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"DEBUG=1",
-					"$(inherited)",
-				);
-				INFOPLIST_FILE = "printerTests/printerTests-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUNDLE_LOADER)";
-				WRAPPER_EXTENSION = xctest;
-			};
-			name = Debug;
-		};
-		181751E1190F4BE000E043B2 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/printer.app/printer";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-					"$(DEVELOPER_FRAMEWORKS_DIR)",
-				);
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "printer/printer-Prefix.pch";
-				INFOPLIST_FILE = "printerTests/printerTests-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUNDLE_LOADER)";
-				WRAPPER_EXTENSION = xctest;
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -440,14 +337,7 @@
 				181751DE190F4BE000E043B2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-		};
-		181751DF190F4BE000E043B2 /* Build configuration list for PBXNativeTarget "printerTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				181751E0190F4BE000E043B2 /* Debug */,
-				181751E1190F4BE000E043B2 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
