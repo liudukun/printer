@@ -7,11 +7,17 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "DKMainViewController.h"
+#import "DKPrintView.h"
+
+@class DKMainViewController;
 
 @interface DKToolsView : UIView
 
 @property (nonatomic) int seletedIndex;
 
 @property (nonatomic,strong) NSMutableArray * tools;
+
+@property (nonatomic,strong) DKMainViewController *mainVC;
 
 @end

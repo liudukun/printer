@@ -38,7 +38,7 @@
  */
 -(void)layoutSubviews{
     [super layoutSubviews];
-    self.tools = [NSMutableArray arrayWithArray:@[@"铅笔",@"橡皮",@"选取",@"文字",@"取色",@"图形",@"填充"]];
+    self.tools = [NSMutableArray arrayWithArray:TOOLS];
     for (int i = 0 ; i<self.tools.count; i++) {
         UIButton * tool = [UIButton buttonWithType:UIButtonTypeCustom];
         [tool setTitle:self.tools[i] forState:UIControlStateNormal];
@@ -55,10 +55,9 @@
 }
 
 
-
-
 - (void)actionBtn:(UIButton*)btn{
     self.seletedIndex = (int)btn.tag;
+    [self.mainVC.printView setNeedsDisplay];
 }
 
 @end

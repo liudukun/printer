@@ -16,7 +16,6 @@
     NSMutableArray * points;
     
 }
-
 @end
 
 @implementation DKPrintView
@@ -32,6 +31,9 @@
 }
 
 - (void)drawRect:(CGRect)rect {
+  
+    
+    
     CGContextRef ctx = UIGraphicsGetCurrentContext();
     CGContextSetFillColorWithColor(ctx, [[UIColor blueColor] CGColor]);
     CGContextSetLineWidth(ctx, 1.0f);
@@ -45,28 +47,38 @@
                 CGPoint endP = [valueEnd CGPointValue];
                 CGContextMoveToPoint(ctx, beginP.x, beginP.y);
                 CGContextAddLineToPoint(ctx, endP.x, endP.y);
-                CGContextStrokePath(ctx);
             }
         }
     }
-    
+    CGContextStrokePath(ctx);
+
 }
 
 -(void)setNeedsDisplay{
-    if (points == nil) {
+   // if(self.mainVC.toolsView.seletedIndex == 1002){
+        if (points == nil) {
+            pointss = [NSMutableArray array];
+        }
+   // }
+    if (self.mainVC.toolsView.seletedIndex == 1000) {
         pointss = [NSMutableArray array];
+        self.mainVC.toolsView.seletedIndex = 0;
     }
+
     [super setNeedsDisplay];
 }
 
 
+
 - (void)touchesBegan:(NSSet *)touches withEvent:(UIEvent *)event {
+    
     points = [NSMutableArray array];
     UITouch *touch = [touches anyObject];
     CGPoint location = [touch locationInView:self];
     NSValue *value = [NSValue valueWithCGPoint:location];
     [points  addObject:value];
     [self setNeedsDisplay];
+    self.mainVC.statusView.labelCoord.text = [NSString stringWithFormat:@"x: %.2f y: %.2f",location.x,location.y];
 }
 
 
@@ -78,6 +90,8 @@
     [points  addObject:value];
     [pointss addObject:points];
     [self setNeedsDisplay];
+    self.mainVC.statusView.labelCoord.text = [NSString stringWithFormat:@"x: %.2f y: %.2f",location.x,location.y];
+
 }
 
 

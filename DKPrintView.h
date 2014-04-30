@@ -8,7 +8,12 @@
 
 #import <UIKit/UIKit.h>
 #import <QuartzCore/QuartzCore.h>
+#import "DKMainViewController.h"
+@class DKMainViewController;
+
 @interface DKPrintView : UIView
 
+
+@property (nonatomic,strong)DKMainViewController *mainVC;
 
 @end

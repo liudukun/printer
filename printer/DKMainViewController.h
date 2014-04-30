@@ -11,6 +11,8 @@
 #import "DKToolsView.h"
 #import "DKPrintView.h"
 #import "DKFunctionsView.h"
+@class DKPrintView;
+@class DKToolsView;
 
 @interface DKMainViewController : UIViewController
 
