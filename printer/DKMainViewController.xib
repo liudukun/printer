@@ -6,6 +6,9 @@
     <objects>
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="DKMainViewController">
             <connections>
+                <outlet property="functionView" destination="wez-L6-TmO" id="1G4-4q-GT2"/>
+                <outlet property="statusView" destination="p9l-Iw-Ods" id="6AS-BC-dRa"/>
+                <outlet property="toolsView" destination="4Rf-xB-Kvh" id="HzK-eP-dem"/>
                 <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
             </connections>
         </placeholder>
@@ -19,15 +22,10 @@
                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                     <color key="backgroundColor" cocoaTouchSystemColor="scrollViewTexturedBackgroundColor"/>
                 </view>
-                <view contentMode="scaleToFill" id="4Rf-xB-Kvh" userLabel="View- tools" customClass="DKToolsView">
+                <view autoresizesSubviews="NO" contentMode="scaleToFill" id="4Rf-xB-Kvh" userLabel="View- tools" customClass="DKToolsView">
                     <rect key="frame" x="0.0" y="66" width="66" height="682"/>
                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                     <color key="backgroundColor" cocoaTouchSystemColor="scrollViewTexturedBackgroundColor"/>
-                </view>
-                <view contentMode="scaleToFill" id="HfO-QA-KAm" userLabel="view -printer" customClass="DKPrintView">
-                    <rect key="frame" x="66" y="66" width="1024" height="682"/>
-                    <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                    <color key="backgroundColor" red="0.80000001192092896" green="0.80000001192092896" blue="0.80000001192092896" alpha="1" colorSpace="calibratedRGB"/>
                 </view>
                 <view contentMode="scaleToFill" id="wez-L6-TmO" userLabel="View - function" customClass="DKFunctionsView">
                     <rect key="frame" x="0.0" y="0.0" width="1024" height="66"/>

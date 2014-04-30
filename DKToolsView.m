@@ -29,28 +29,36 @@
 }
 */
 
+
+/*
+    682
+    66
+ 
+ 
+ */
 -(void)layoutSubviews{
     [super layoutSubviews];
-    UIButton * pencil = [UIButton buttonWithType:UIButtonTypeCustom];
-    [pencil setTitle:@"铅笔" forState:UIControlStateNormal];
-    pencil.layer.borderWidth = 1.0;
-    pencil.layer.cornerRadius = 4.0;
-    pencil.layer.borderColor = [UIColor cyanColor].CGColor;
-    pencil.frame = CGRectMake(10, 10, 46, 46);
-    [pencil addTarget:self action:@selector(actionBtn:) forControlEvents:UIControlEventTouchUpInside];
-    pencil.tag = 1;
-    [self addSubview:pencil];
-    
-    
-}
-
--(void)setNeedsDisplay{
-    [super setNeedsDisplay];
+    self.tools = [NSMutableArray arrayWithArray:@[@"铅笔",@"橡皮",@"选取",@"文字",@"取色",@"图形",@"填充"]];
+    for (int i = 0 ; i<self.tools.count; i++) {
+        UIButton * tool = [UIButton buttonWithType:UIButtonTypeCustom];
+        [tool setTitle:self.tools[i] forState:UIControlStateNormal];
+        tool.layer.borderWidth = 1.0;
+        tool.layer.cornerRadius = 4.0;
+        tool.layer.borderColor = [UIColor cyanColor].CGColor;
+        tool.frame = CGRectMake(0, 0, 46, 46);
+        tool.center = CGPointMake(33, 682 / (self.tools.count+1) * (i+1) );
+        [tool addTarget:self action:@selector(actionBtn:) forControlEvents:UIControlEventTouchUpInside];
+        tool.tag = 1000 + i;
+        [self addSubview:tool];
+    }
 
 }
+
+
+
 
 - (void)actionBtn:(UIButton*)btn{
-    
+    self.seletedIndex = (int)btn.tag;
 }
 
 @end

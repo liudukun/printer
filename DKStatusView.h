@@ -10,4 +10,8 @@
 
 @interface DKStatusView : UIView
 
+@property (nonatomic,strong) UILabel * labelCoord;
+
+@property (nonatomic,strong) UILabel * labelColor;
+
 @end

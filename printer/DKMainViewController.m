@@ -27,6 +27,10 @@
 {
     [super viewDidLoad];
     // Do any additional setup after loading the view from its nib.
+    self.printView = [[DKPrintView alloc]initWithFrame:CGRectMake(66, 66, 1024-66, 768-66-20)];
+    self.printView.backgroundColor = [UIColor cyanColor];
+    self.printView.contentMode = UIViewContentModeRedraw;  
+    [self.view addSubview:self.printView];
 }
 
 - (void)didReceiveMemoryWarning

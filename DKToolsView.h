@@ -11,4 +11,7 @@
 @interface DKToolsView : UIView
 
 @property (nonatomic) int seletedIndex;
+
+@property (nonatomic,strong) NSMutableArray * tools;
+
 @end

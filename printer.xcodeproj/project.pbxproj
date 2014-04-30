@@ -20,6 +20,7 @@
 		181F1B47190F594E005006D8 /* DKToolsView.m in Sources */ = {isa = PBXBuildFile; fileRef = 181F1B46190F594E005006D8 /* DKToolsView.m */; };
 		181F1B4A190F5959005006D8 /* DKStatusView.m in Sources */ = {isa = PBXBuildFile; fileRef = 181F1B49190F5959005006D8 /* DKStatusView.m */; };
 		181F1B4D190F596A005006D8 /* DKFunctionsView.m in Sources */ = {isa = PBXBuildFile; fileRef = 181F1B4C190F596A005006D8 /* DKFunctionsView.m */; };
+		181F1B51190F8D48005006D8 /* spark.png in Resources */ = {isa = PBXBuildFile; fileRef = 181F1B4F190F8D48005006D8 /* spark.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -46,6 +47,7 @@
 		181F1B49190F5959005006D8 /* DKStatusView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DKStatusView.m; sourceTree = "<group>"; };
 		181F1B4B190F596A005006D8 /* DKFunctionsView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DKFunctionsView.h; sourceTree = "<group>"; };
 		181F1B4C190F596A005006D8 /* DKFunctionsView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DKFunctionsView.m; sourceTree = "<group>"; };
+		181F1B4F190F8D48005006D8 /* spark.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = spark.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +101,7 @@
 				181751E2190F4C3300E043B2 /* DKMainViewController.h */,
 				181751E3190F4C3300E043B2 /* DKMainViewController.m */,
 				181751E4190F4C3300E043B2 /* DKMainViewController.xib */,
+				181F1B4F190F8D48005006D8 /* spark.png */,
 				181751C5190F4BE000E043B2 /* Images.xcassets */,
 				181751BA190F4BE000E043B2 /* Supporting Files */,
 			);
@@ -183,6 +186,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				181F1B51190F8D48005006D8 /* spark.png in Resources */,
 				181751BE190F4BE000E043B2 /* InfoPlist.strings in Resources */,
 				181751E6190F4C3300E043B2 /* DKMainViewController.xib in Resources */,
 				181751C6190F4BE000E043B2 /* Images.xcassets in Resources */,
